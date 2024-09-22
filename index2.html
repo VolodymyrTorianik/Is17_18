@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <nav class="navigation">
+        <div class="navitem"><a href="./index.html">Page 1</a></div>
+        <div class="navitem"><a href="./index2.html">Page 2</a></div>
+        <div class="navitem"><a href="./index3.html">Page 3</a></div>
+        <div class="navitem"><a href="./index4.html">Page 4</a></div>
+    </nav>
+    <div id="formfilter">
+    <form class="FormTwo">
+        <label for="select">Тип продукту</label>
+        <select name="type-product" id="type-product">
+            <option value="phone">Телефон</option>
+            <option value="notebook">Ноутбук</option>
+            <option value="charg">Зарядка</option>
+            <option value="cleaner">Пылесос</option>
+        </select>
+        <label for="power">Потужність</label>
+    <div class="power">
+        <input type="checkbox" name="power" id="15w">15w
+        <input type="checkbox" name="power" id="25w">25w
+        <input type="checkbox" name="power" id="65w">65w
+        <input type="checkbox" name="power" id="100w">100w
+        <input type="checkbox" name="power" id="200w">200w
+    </div>
+        <label for="model">Марка</label>
+    <div class="model">
+        <input type="checkbox" name="model" id="Samsung">Samsung
+        <input type="checkbox" name="model" id="LG">LG
+        <input type="checkbox" name="model" id="ASUS">ASUS
+        <input type="checkbox" name="model" id="LENOVO">LENOVO
+    </div>
+        <label for="sort">Сортування</label>
+        <select name="sort" id="sort">
+            <option value="cheap">від дешевих</option>
+            <option value="expen">від дорогих</option>
+            <option value="rating">по рейтингу</option>
+        </select>
+        <label for="modelname">Назва моделі</label>
+        <input type="text" name="modelname" id="modelname">
+        <button type="submit">Підтвердити</button>
+    </form>
+    </div>
+</body>
+</html>
+
